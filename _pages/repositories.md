@@ -11,10 +11,6 @@ nav_order: 4
 
 ## GitHub Repositories
 
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
 <div class="repositories d-flex flex-wrap flex-md-row flex-column gap-4">
   {% for repo in site.data.repositories.github_repos %}
     <div class="repo-card">
@@ -34,4 +30,5 @@ nav_order: 4
 </div>
 
 {% endif %}
+
 
