@@ -11,23 +11,27 @@ nav_order: 4
 
 ## GitHub Repositories
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-start">
+{% if site.data.repositories.github_repos %}
+
+## GitHub Repositories
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column gap-4">
   {% for repo in site.data.repositories.github_repos %}
-    <div class="mb-4 me-md-3" style="max-width: 260px;">
-      <a href="{{ repo.url }}"
-         target="_blank"
-         rel="noopener noreferrer"
-         style="text-decoration: none;">
-        <img
-          src="{{ repo.image | relative_url }}"
-          alt="{{ repo.name }} image"
-          class="img-fluid mb-2"
-          style="border-radius: 0.5rem;">
-        <div class="fw-semibold">
+    <div class="repo-card">
+      <a href="{{ repo.url }}" target="_blank" rel="noopener noreferrer">
+        
+        <div class="repo-image-wrapper">
+          <img src="{{ repo.image | relative_url }}" alt="{{ repo.name }}">
+        </div>
+
+        <div class="repo-title">
           {{ repo.name }}
         </div>
+
       </a>
     </div>
   {% endfor %}
 </div>
+
 {% endif %}
+
