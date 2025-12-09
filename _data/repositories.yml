@@ -1,13 +1,18 @@
 github_users:
-  - aziksh-ospanov
+  - aziksh-ospanov   # keep or delete as you wish
 
 repo_description_lines_max: 2
 
 github_repos:
-  - aziksh-ospanov/truncated-vendi
-  - aziksh-ospanov/scendi-score
-  - aziksh-ospanov/FKEA
-  - aziksh-ospanov/APOLLO
-  - aziksh-ospanov/HERMES
-  - roozbeh-yz/IMO-Steps
-  - roozbeh-yz/miniF2F_v2
+  - name: truncated-vendi
+    url: https://github.com/aziksh-ospanov/truncated-vendi
+    image: /assets/img/repos/truncated-vendi.png
+
+  - name: Scendi Score
+    url: https://github.com/aziksh-ospanov/scendi-score
+    image: /assets/img/repos/scendi.png
+
+  - name: FKEA
+    url: https://github.com/aziksh-ospanov/FKEA
+    image: /assets/img/repos/fkea.png
+
