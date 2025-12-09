@@ -16,3 +16,19 @@ github_repos:
     url: https://github.com/aziksh-ospanov/FKEA
     image: /assets/img/repos/fkea.png
 
+  - name: APOLLO
+    url: https://github.com/aziksh-ospanov/APOLLO
+    image: /assets/img/repos/apollo.png
+
+  - name: HERMES
+    url: https://github.com/aziksh-ospanov/HERMES
+    image: /assets/img/repos/hermes.png
+
+  - name: IMO-Steps
+    url: https://github.com/roozbeh-yz/IMO-Steps
+    image: /assets/img/repos/imo_steps.png
+
+  - name: miniF2F v2
+    url: https://github.com/roozbeh-yz/miniF2F_v2
+    image: /assets/img/repos/minif2f_v2.png
+
