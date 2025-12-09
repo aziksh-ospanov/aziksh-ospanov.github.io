@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - aziksh-ospanov/truncated-vendi
+  - full_name: aziksh-ospanov/truncated-vendi
+    image: /assets/img/publication_preview/vendi_convergence.png
   - aziksh-ospanov/CLIP-DISSECTION
   - aziksh-ospanov/FKEA
