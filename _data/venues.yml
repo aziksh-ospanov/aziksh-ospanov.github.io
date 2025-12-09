@@ -4,24 +4,24 @@
 
 "ICML":
   url: https://icml.cc/
-  color: "#00369f"
+  color: "#FFC800"
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#00369f"
+  color: "#5A0FAF"
 
 "CVPR":
   url: https://cvpr.thecvf.com/
-  color: "#00369f"
+  color: "#E5E8EE"
 
 "ICCV":
   url: https://iccv.thecvf.com/
-  color: "#00369f"
+  color: "#9F1B00"
 
 "UAI":
   url: https://www.auai.org/
-  color: "#00369f"
+  color: "#D45A00"
 
 "TMLR":
   url: https://jmlr.org/tmlr/
-  color: "#00369f"
+  color: "#F5739A"
