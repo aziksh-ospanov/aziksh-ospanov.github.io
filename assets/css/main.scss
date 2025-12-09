@@ -23,3 +23,44 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Repo card layout */
+.repo-card {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/* Image box */
+.repo-image-wrapper {
+  width: 100%;
+  height: 160px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: var(--color-bg);
+  overflow: hidden;
+}
+
+/* Make all repo images centered and scaled nicely */
+.repo-image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;  /* Key setting */
+}
+
+/* Title below image */
+.repo-title {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
