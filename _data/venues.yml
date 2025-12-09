@@ -25,3 +25,7 @@
 "TMLR":
   url: https://jmlr.org/tmlr/
   color: "#F5739A"
+
+"AISTATS":
+  url: https://virtual.aistats.org/
+  color: "#7A3E00"
