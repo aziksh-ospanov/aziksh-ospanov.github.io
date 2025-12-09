@@ -4,7 +4,10 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - full_name: aziksh-ospanov/truncated-vendi
-    image: /assets/img/publication_preview/vendi_convergence.png
-  - aziksh-ospanov/CLIP-DISSECTION
+  - aziksh-ospanov/truncated-vendi
+  - aziksh-ospanov/scendi-score
   - aziksh-ospanov/FKEA
+  - aziksh-ospanov/APOLLO
+  - aziksh-ospanov/HERMES
+  - roozbeh-yz/IMO-Steps
+  - roozbeh-yz/miniF2F_v2
